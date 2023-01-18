@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 const Page = ({ post }) =>{
 return(
 <div>
-<h2> {post[0].title.rendered} </h2>
+<h2> {post[0].title.rendered} </h2><br />
 <div style={{fontFamily:"Inter"}}>
         <div
             dangerouslySetInnerHTML={{
